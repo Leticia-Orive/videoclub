@@ -50,7 +50,7 @@ app.use(morgan('dev'));
 //}
 
 // Routes
-//app.use(require('./routes')),
+app.use(require('./routes')),
 //app.use(require('./routes/authentication')),
 //app.use('/movies',require('./routes/movies'))
 // el /movies es para pedir todas las peliculas
